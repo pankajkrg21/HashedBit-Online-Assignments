@@ -1,0 +1,18 @@
+body{
+font-family:Arial;
+padding:20px;
+transition:0.3s;
+}
+
+.dark{
+background:black;
+color:white;
+}
+
+.box{
+padding:20px;
+margin:15px 0;
+border:1px solid black;
+border-radius:10px;
+font-size:20px;
+}

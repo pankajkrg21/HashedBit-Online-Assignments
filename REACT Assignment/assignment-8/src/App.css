@@ -1,0 +1,102 @@
+/* Page background */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+}
+
+/* Main center layout */
+
+.main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card container */
+
+.container {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 14px;
+  width: 900px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Titles */
+
+h2 {
+  margin-bottom: 30px;
+}
+
+/* Image styling */
+
+.movieImage {
+  width: 320px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+
+.btn {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #3498db;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: #217dbb;
+}
+
+/* Form */
+
+.form input {
+  width: 300px;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: #f8f9fb;
+  font-size: 16px;
+}
+
+/* Success page */
+
+.successBox {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.movieCard {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.movieCard:hover {
+  transform: scale(1.05);
+}
+
+.movieCard img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.movieCard p {
+  margin-top: 8px;
+  font-weight: bold;
+}

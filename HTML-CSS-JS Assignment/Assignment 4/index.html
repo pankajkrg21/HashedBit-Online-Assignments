@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JS DOM Assignment</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h2>JS DOM Assignment</h2>
+
+<h3>1. Dark Theme</h3>
+<button onclick="toggleTheme()">Toggle Dark Mode</button>
+
+
+<h3>2. Create Div</h3>
+<button onclick="createDiv()">Add New Div</button>
+<div id="divContainer"></div>
+
+
+<h3>3. Hide / Show Paragraph</h3>
+<p id="para">This is sample paragraph, press the button to hide/show.</p>
+<button onclick="togglePara()">Hide/Show</button>
+
+
+<h3>4. Dynamic CSS</h3>
+
+<div id="cssBox" class="box">
+Change my style
+</div>
+
+<label>Font Size:</label>
+<input type="range" min="14" max="60" value="20" oninput="changeFont(this.value)">
+
+<br><br>
+
+<label>Border Radius:</label>
+<input type="range" min="0" max="50" value="10" oninput="changeRadius(this.value)">
+
+<br><br>
+
+<label>Background Color:</label>
+<input type="color" onchange="changeBg(this.value)">
+
+<br><br>
+
+<label>Text Color:</label>
+<input type="color" onchange="changeText(this.value)">
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

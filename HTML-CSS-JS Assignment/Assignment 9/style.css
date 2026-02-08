@@ -1,0 +1,43 @@
+body{
+font-family:Arial;
+background:#f4f6f9;
+padding:30px;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.question{
+margin-bottom:25px;
+padding:15px;
+border-bottom:1px solid #ddd;
+}
+
+input{
+padding:8px;
+margin-top:5px;
+width:300px;
+}
+
+button{
+padding:10px 15px;
+background:#3498db;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+margin-top:10px;
+}
+
+.answer{
+margin-top:10px;
+background:#eee;
+padding:10px;
+border-radius:5px;
+}
