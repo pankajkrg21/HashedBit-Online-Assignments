@@ -61,12 +61,16 @@ h2 {
 
 .form input {
   width: 300px;
-  padding: 12px;
-  margin: 10px 0;
-  border-radius: 8px;
+  padding: 10px;
+  border-radius: 6px;
   border: 1px solid #ccc;
-  background: #f8f9fb;
-  font-size: 16px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;   /* ⭐ makes vertical layout */
+  align-items: center;
+  gap: 15px;                /* space between inputs */
 }
 
 /* Success page */
