@@ -19,7 +19,6 @@
   color: #222;
 }
 
-/* Input area */
 
 .inputBox {
   display: flex;
@@ -35,7 +34,6 @@
   background: #f8f9fb;
 }
 
-/* Buttons */
 
 button {
   padding: 10px 15px;
@@ -58,7 +56,6 @@ button:hover {
   background: #c0392b;
 }
 
-/* List */
 
 ul {
   list-style: none;

@@ -10,7 +10,7 @@ even+=i+" ";
 document.getElementById("even").innerText="Answer: " + even;
 
 
-// Calculator (default values added)
+// Calculator
 
 let a=Number(document.getElementById("num1").value) || 10;
 let b=Number(document.getElementById("num2").value) || 5;
@@ -28,7 +28,7 @@ case "divide": result=b!==0 ? a/b : "Cannot divide by zero"; break;
 document.getElementById("calc").innerText="Answer: " + result;
 
 
-// Tax (default salary added)
+// Tax
 
 let salary=Number(document.getElementById("salary").value) || 800000;
 let tax=0;
@@ -50,7 +50,7 @@ tax=salary*0.30;
 document.getElementById("tax").innerText="Answer: " + tax;
 
 
-// Digit Product (default numbers added)
+// Digit Product
 
 let n1=Number(document.getElementById("n1").value) || 6;
 let n2=Number(document.getElementById("n2").value) || 34;

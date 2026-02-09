@@ -6,21 +6,20 @@ function App() {
   const [task, setTask] = useState("");
   const [todos, setTodos] = useState([]);
 
-  // Add task
   function addTask() {
 
     if(task.trim() === "") return;
 
     const updatedList = [...todos, task];
 
-    // Sort ascending
+  
     updatedList.sort((a,b)=> a.localeCompare(b));
 
     setTodos(updatedList);
-    setTask(""); // clear input
+    setTask(""); 
   }
 
-  // Delete task
+  
   function deleteTask(index) {
 
     const newList = todos.filter((_, i) => i !== index);

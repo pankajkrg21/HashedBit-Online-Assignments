@@ -9,7 +9,7 @@ function MovieDetails() {
 
   const movie = movies.find(m => m.id === Number(id));
 
-  // NEW STATE
+
   const [tickets, setTickets] = useState(1);
 
   return (

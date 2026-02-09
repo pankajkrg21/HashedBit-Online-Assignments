@@ -4,7 +4,7 @@ import { useState } from "react";
 function BookingForm() {
 
   const navigate = useNavigate();
-  const location = useLocation();   // ✅ get data from previous page
+  const location = useLocation();  
 
   const [form,setForm] = useState({
     name:"",
@@ -16,8 +16,8 @@ function BookingForm() {
 
     navigate("/success", {
       state: {
-        ...form,                       // ✅ use form (not formData)
-        tickets: location.state.tickets   // ✅ receive tickets
+        ...form,                       
+        tickets: location.state.tickets   
       }
     });
 
